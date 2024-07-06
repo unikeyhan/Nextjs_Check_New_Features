@@ -1,12 +1,13 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Fetching from "./Fetching";
+import Todo from './Todo/page'
+
 
 export default function Home() {
  
   return (
 <div>
-  <Fetching/>
+<Todo/>
 
 </div>
   );
