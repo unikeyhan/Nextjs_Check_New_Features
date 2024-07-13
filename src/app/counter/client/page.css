@@ -1,0 +1,20 @@
+.counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.counter-container .number-box span {
+    font-size: 32px;
+}
+
+.counter-container .click-me,
+.counter-container .reset-me {
+    font-size: 32px;
+    margin-top: 8px;
+    cursor: pointer;
+}
