@@ -3,8 +3,8 @@
 import { useState } from 'react';
 import './page.css';
 
-function CounterClient() {
-    const [num, setNumber] = useState(0);
+function CounterClient({number, callBack}) {
+    const [num, setNumber] = useState(number ?? 0);
 
     function clickMe() {
         setNumber(num + 1);
