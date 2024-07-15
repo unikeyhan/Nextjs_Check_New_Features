@@ -4,7 +4,7 @@ import { useState } from 'react';
 import './page.css';
 
 function CounterClient({number, callBack}) {
-    const [num, setNumber] = useState(number ?? 0);
+    const [num, setNumber] = useState(+number || 0);
 
     function clickMe() {
         setNumber(num + 1);
